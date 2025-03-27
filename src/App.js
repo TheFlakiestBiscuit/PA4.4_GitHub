@@ -1,5 +1,5 @@
 import React from 'react';
-// import Counter from './components/Counter'; // import commented out due to being unused.
+import Counter from './components/Counter'; // uncommented to use the Counter component, rendered inside TodoList.
 // import TextInput from './components/TextInput'; // import commented out due to being unused.
 import TodoList from './components/TodoList';
 import './App.css';
@@ -9,7 +9,6 @@ function App() {
     <div className="App">
       {/* <Counter /> */}
       {/*<TextInput /> */}
-        <p>Todo list </p>
         <TodoList />
     </div>
   );
